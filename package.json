@@ -1,0 +1,26 @@
+{
+  "name": "climate-change-usa-api",
+  "version": "1.0.0",
+  "description": "Climate Change Api for USA",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohan2596/climate-change-usa-api.git"
+  },
+  "keywords": [
+    "Climate",
+    "change",
+    "api",
+    "global",
+    "warming"
+  ],
+  "author": "ROHAN RAVINDRA KADAM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohan2596/climate-change-usa-api/issues"
+  },
+  "homepage": "https://github.com/Rohan2596/climate-change-usa-api#readme"
+}
