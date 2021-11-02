@@ -4,8 +4,8 @@
   "description": "Climate Change Api for USA",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "install": "npm i"
+    "start": "node server.js"
+  
 
   },
   "repository": {
