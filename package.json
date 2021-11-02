@@ -4,7 +4,9 @@
   "description": "Climate Change Api for USA",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build": "tsc -p ./src"
+
   },
   "repository": {
     "type": "git",
