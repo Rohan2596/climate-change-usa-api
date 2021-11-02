@@ -3,7 +3,7 @@ const express= require('express')
 const axios= require('axios')
 const cheerio= require('cheerio')
 const app=express();
-
+const PORT=process.env.PORT|| 8080;
 const newspapers = [
     {
         name: 'yahoo',
@@ -125,4 +125,4 @@ app.get('/news/:newspaperId', (req, res) => {
             res.json(curatedArticles)
         }).catch(err => console.log(err))
 })
-app.listen(8080,()=>{console.log("Server Sports  api Started");})
+app.listen(PORT,()=>{console.log("Server Sports  api Started");})
