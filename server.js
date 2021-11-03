@@ -90,7 +90,7 @@ app.get('/', (req, res) => {
 app.get('/news', (req, res) => {
     res.json(articles)
 })
-app.get('/news/webistes',(req,res)=>{
+app.get('/news/websites',(req,res)=>{
     newspapers.forEach(newspaper => {
         websites.push({
             source: newspaper.name
